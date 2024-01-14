@@ -1,0 +1,424 @@
+tap "apple/apple", "http://github.com/apple/homebrew-apple"
+tap "arrow2nd/tap"
+tap "gcenx/wine"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/services"
+tap "jesseduffield/lazygit"
+brew "gettext"
+brew "xz"
+brew "openssl@3"
+brew "aircrack-ng"
+brew "aria2"
+brew "asciiquarium"
+brew "asitop"
+brew "bashdb"
+brew "node"
+brew "bitwarden-cli"
+brew "bottom"
+brew "coreutils"
+brew "tmux"
+brew "byobu"
+brew "cask"
+brew "chrome-cli"
+brew "cmake"
+brew "cmatrix"
+brew "cowsay"
+brew "openldap"
+brew "curl"
+brew "docker"
+brew "dotnet"
+brew "duf"
+brew "dust"
+brew "exiftool"
+brew "fcrackzip"
+brew "fd"
+brew "fdupes"
+brew "felinks"
+brew "ffmpeg"
+brew "figlet"
+brew "fish"
+brew "python@3.11"
+brew "fortune"
+brew "gat"
+brew "gedit"
+brew "gifski"
+brew "git"
+brew "git-lfs"
+brew "gnu-sed"
+brew "groff"
+brew "helix"
+brew "htop"
+brew "hugo"
+brew "imagemagick"
+brew "ipython"
+brew "john-jumbo"
+brew "jq"
+brew "kakoune"
+brew "latex2html"
+brew "latex2rtf"
+brew "latexdiff"
+brew "libgpg-error"
+brew "libsixel"
+brew "lolcat"
+brew "lsd"
+brew "lynx"
+brew "marp-cli"
+brew "mas"
+brew "mecab"
+brew "mecab-ipadic"
+brew "micro"
+brew "mint"
+brew "nano"
+brew "neovim"
+brew "ninja"
+brew "nkf"
+brew "nodebrew"
+brew "nyancat"
+brew "openssh"
+brew "php"
+brew "pinentry-mac"
+brew "procs"
+brew "protobuf"
+brew "pwgen"
+brew "qt"
+brew "r"
+brew "ranger"
+brew "rename"
+brew "ripgrep-all"
+brew "ruby"
+brew "rust"
+brew "scrapy"
+brew "scriptcs"
+brew "sl"
+brew "subversion"
+brew "swift-format"
+brew "swiftformat"
+brew "telnet"
+brew "toilet"
+brew "translate-shell"
+brew "transmission-cli"
+brew "tree"
+brew "vim"
+brew "wget"
+brew "winetricks"
+brew "wireguard-go"
+brew "yt-dlp"
+brew "zbar"
+brew "zsh-autocomplete"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-git-prompt"
+brew "zsh-syntax-highlighting"
+brew "arrow2nd/tap/gomi-rename"
+brew "jesseduffield/lazygit/lazygit"
+cask "adguard-vpn"
+cask "amazon-photos"
+cask "anaconda"
+cask "android-file-transfer"
+cask "apparency"
+cask "appcleaner"
+cask "applite"
+cask "aquaskk"
+cask "arc"
+cask "archaeology"
+cask "audacity"
+cask "balenaetcher"
+cask "bartender"
+cask "bettertouchtool"
+cask "bibdesk"
+cask "bike"
+cask "birdfont"
+cask "blender"
+cask "brave-browser"
+cask "burn"
+cask "canva"
+cask "chromedriver"
+cask "codeedit"
+cask "coderunner"
+cask "cool-retro-term"
+cask "copilot-for-xcode"
+cask "deepl"
+cask "devtoys"
+cask "discord"
+cask "drawio"
+cask "dropbox"
+cask "dropbox-capture"
+cask "dynalist"
+cask "element"
+cask "emacs"
+cask "epic-games"
+cask "eul"
+cask "fig"
+cask "figma"
+cask "fing"
+cask "firefox"
+cask "firefox-developer-edition"
+cask "font-hannari"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-kiwi-maru"
+cask "font-source-code-pro"
+cask "font-yusei-magic"
+cask "fontforge"
+cask "gimp"
+cask "github"
+cask "gitkraken"
+cask "godot"
+cask "google-chrome"
+cask "google-chrome-beta"
+cask "google-drive"
+cask "google-earth-pro"
+cask "grandperspective"
+cask "gstreamer-framework"
+cask "handbrake"
+cask "hyper"
+cask "iina"
+cask "imageoptim"
+cask "imhex"
+cask "inkscape"
+cask "iterm2"
+cask "itsycal"
+cask "joplin"
+cask "kap"
+cask "karabiner-elements"
+cask "keka"
+cask "keyboardcleantool"
+cask "lapce"
+cask "libndi"
+cask "logitech-g-hub"
+cask "macfuse"
+cask "macs-fan-control"
+cask "mactex-no-gui"
+cask "mi"
+cask "microsoft-auto-update"
+cask "microsoft-edge"
+cask "microsoft-office"
+cask "microsoft-teams"
+cask "minecraft"
+cask "mist"
+cask "mono-mdk"
+cask "motrix"
+cask "multipass"
+cask "musescore"
+cask "name-mangler"
+cask "netbeans"
+cask "netnewswire"
+cask "notion"
+cask "nvidia-geforce-now"
+cask "obs"
+cask "obs-advanced-scene-switcher"
+cask "obs-ios-camera-source"
+cask "obs-ndi"
+cask "obs-websocket"
+cask "onionshare"
+cask "onlyoffice"
+cask "opera"
+cask "opera-gx"
+cask "orbstack"
+cask "origami-studio"
+cask "orion"
+cask "oscilloscope"
+cask "powershell"
+cask "proxyman"
+cask "psychopy"
+cask "qlab"
+cask "qlmarkdown"
+cask "qlstephen"
+cask "r"
+cask "raindropio"
+cask "rapidapi"
+cask "raycast"
+cask "rectangle-pro"
+cask "rstudio"
+cask "safari-technology-preview"
+cask "save-hollywood"
+cask "scapple"
+cask "scrivener"
+cask "sketch"
+cask "skype"
+cask "slack"
+cask "soulver"
+cask "sourcetree"
+cask "spotify"
+cask "stats"
+cask "steam"
+cask "sublime-merge"
+cask "sublime-text"
+cask "suspicious-package"
+cask "sweet-home3d"
+cask "syntax-highlight"
+cask "tor-browser"
+cask "transmission"
+cask "tunnelblick"
+cask "utm"
+cask "visual-studio"
+cask "visual-studio-code"
+cask "vivaldi"
+cask "vivaldi-snapshot"
+cask "vlc"
+cask "whisky"
+cask "wine-crossover"
+cask "workflowy"
+cask "xppen-pentablet"
+cask "xquartz"
+cask "zed"
+cask "zoom"
+mas "Actions", id: 1586435171
+mas "Affinity Designer 2", id: 1616831348
+mas "Affinity Photo 2", id: 1616822987
+mas "Affinity Publisher 2", id: 1606941598
+mas "AmorphousDiskMark", id: 1168254295
+mas "AmorphousMemoryMark", id: 1495719766
+mas "Amphetamine", id: 937984704
+mas "Blackmagic RAW Player", id: 1435415804
+mas "Blackmagic RAW Speed Test", id: 1466185689
+mas "Boop", id: 1518425043
+mas "Capo", id: 696977615
+mas "CleanMyMac X", id: 1339170533
+mas "Codelime", id: 1622145140
+mas "Color Picker", id: 1545870783
+mas "Command X", id: 6448461551
+mas "Compressor", id: 424390742
+mas "CotEditor", id: 1024640650
+mas "Craft", id: 1487937127
+mas "Creativit", id: 1661256251
+mas "Curve", id: 1219074514
+mas "Cypher", id: 1586958842
+mas "DaisyDisk", id: 411643860
+mas "DaVinci Resolve", id: 571213070
+mas "Developer", id: 640199958
+mas "Disk Speed Test", id: 425264550
+mas "Drafts", id: 1435957248
+mas "DuckDuckGo Privacy for Safari", id: 1482920575
+mas "Eagle for Safari", id: 1526651672
+mas "egword Universal 2", id: 1272842196
+mas "Encrypto", id: 935235287
+mas "Essayist", id: 1537845384
+mas "Expenses", id: 1492055171
+mas "Final Cut Pro", id: 424389933
+mas "FirstSeed Calendar", id: 1348617240
+mas "FirstSeed Tasks", id: 1627018604
+mas "Flow", id: 1423210932
+mas "Gemini 2", id: 1090488118
+mas "GeoGebra Calculator Suite", id: 1504416652
+mas "GeoGebra Graphing Calculator", id: 1294018688
+mas "Gifski", id: 1351639930
+mas "Goodnotes", id: 1444383602
+mas "GoT: Tale of Crows", id: 1483071787
+mas "Habit Tracker", id: 6466580414
+mas "HextEdit", id: 1557247094
+mas "Hush", id: 1544743900
+mas "Hyperduck", id: 6444667067
+mas "iA Writer", id: 775737590
+mas "Instapaper", id: 288545208
+mas "Just Press Record", id: 1033342465
+mas "Keepa - Price Tracker", id: 1533805339
+mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
+mas "LadioCast", id: 411213048
+mas "LanguageTranslator", id: 1218781096
+mas "LINE", id: 539883307
+mas "Logic Pro", id: 634148309
+mas "MachineProfile", id: 530194517
+mas "Mactracker", id: 430255202
+mas "MainStage", id: 634159523
+mas "MarbleItUp", id: 1484403395
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Mimeo Photos", id: 1282504627
+mas "Mini Metro+", id: 1550663539
+mas "Mini Motorways", id: 1456188526
+mas "Motion", id: 434290957
+mas "Multi Page Print", id: 6443749435
+mas "Numbers", id: 409203825
+mas "one sec", id: 1532875441
+mas "Pages", id: 409201541
+mas "Pastel", id: 413897608
+mas "Patterns", id: 429449079
+mas "Photomator", id: 1444636541
+mas "Physics 101", id: 435293897
+mas "Physics Latex Editor", id: 6453889446
+mas "Piccolo", id: 1561230039
+mas "Pictura", id: 6451364124
+mas "Pixave", id: 924891282
+mas "Pixelmator Pro", id: 1289583905
+mas "Playgrounds", id: 1496833156
+mas "Poolsuite FM", id: 1514817810
+mas "PopClip", id: 445189367
+mas "PrestoPhoto", id: 1433634474
+mas "Prime Video", id: 545519333
+mas "QuickFTP", id: 1451646819
+mas "QuickMIDI", id: 1459790045
+mas "Secrets", id: 1591056366
+mas "Sequel Ace", id: 1518036000
+mas "Shareful", id: 1522267256
+mas "Skate City", id: 1470376606
+mas "Snap Converter", id: 431094796
+mas "Sping", id: 1483542433
+mas "Stela", id: 1476456353
+mas "stone", id: 1230288277
+mas "Structured", id: 1499198946
+mas "Telegram", id: 747648890
+mas "Teleprompter", id: 6463623914
+mas "TestFlight", id: 899247664
+mas "Things", id: 904280696
+mas "TimeStats", id: 960112320
+mas "Tot", id: 1491071483
+mas "Twitter", id: 1482454543
+mas "Velja", id: 1607635845
+mas "VirtualDJ", id: 1061963639
+mas "VirusBarrier Scanner", id: 1200445649
+mas "waifu2x", id: 1286485858
+mas "WaveBar", id: 6450398808
+mas "Whisper", id: 1668083311
+mas "WorldWideWeb", id: 1621370168
+mas "Xcode", id: 497799835
+mas "Yoink", id: 457622435
+mas "ちゃちゃっとリネーマー", id: 6462363612
+mas "タイピスト", id: 415166115
+mas "六法", id: 1272669652
+mas "辞書 by 物書堂", id: 1380563956
+vscode "aaron-bond.better-comments"
+vscode "adpyke.codesnap"
+vscode "amazonwebservices.aws-toolkit-vscode"
+vscode "dracula-theme.theme-dracula"
+vscode "eamodio.gitlens"
+vscode "EliverLara.andromeda"
+vscode "esbenp.prettier-vscode"
+vscode "GitHub.codespaces"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
+vscode "IBM.output-colorizer"
+vscode "janisdd.vscode-edit-csv"
+vscode "jrebocho.vscode-random"
+vscode "marp-team.marp-vscode"
+vscode "MohammadBaqer.better-folding"
+vscode "MS-CEINTL.vscode-language-pack-ja"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-powertoys"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode-remote.vscode-remote-extensionpack"
+vscode "ms-vscode.mono-debug"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.remote-server"
+vscode "PKief.material-icon-theme"
+vscode "shardulm94.trailing-spaces"
+vscode "sswg.swift-lang"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "vadimcn.vscode-lldb"
+vscode "VisualStudioExptTeam.intellicode-api-usage-examples"
+vscode "VisualStudioExptTeam.vscodeintellicode"
+vscode "vknabel.vscode-apple-swift-format"
+vscode "vknabel.vscode-swiftformat"
+vscode "withfig.fig"
+vscode "zhuangtongfa.material-theme"

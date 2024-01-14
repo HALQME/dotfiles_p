@@ -1,0 +1,10 @@
+#
+.git/
+.gitconfig/
+.github/
+data/
+log/
+raycast/config.json
+ssh/
+.orbstack/data/
+.orbstack/log/
