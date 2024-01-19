@@ -1,22 +1,17 @@
 # bin/bash
 
-CONF_DIR="$(cd .. && pwd)/.conf"
-for dotfile in $CONF_DIR/* ; do
-	[[ "$dotfile" == "${CONF_DIR}/.git" ]] && continue
-	[[ "$dotfile" == "${CONF_DIR}/.github" ]] && continue
-	[[ "$dotfile" == "${CONF_DIR}/.DS_Store" ]] && continue
-	ln -fsv "$dotfile" "$HOME/.config"
+CONF_DIR="$(cd .. && pwd)/.dotfiles/.conf"
+for dotfile in "$CONF_DIR"/*?; do
+	[[ "$dotfile" == "${CONF_DIR}/.git" || "$dotfile" == "${CONF_DIR}/.github" || "$dotfile" == "${CONF_DIR}/.DS_Store" ]] && continue
+	ln -sfnv "$dotfile" "$HOME/.config"
 done
-
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-for dotfile in "${SCRIPT_DIR}"/.??* ; do
-	[[ "$dotfile" == "${SCRIPT_DIR}/.git" ]] && continue
-	[[ "$dotfile" == "${SCRIPT_DIR}/.github" ]] && continue
-	[[ "$dotfile" == "${SCRIPT_DIR}/.DS_Store" ]] && continue
-
+for dotfile in "${SCRIPT_DIR}"/.??*; do
+	[[ "$dotfile" == "${CONF_DIR}/.git" || "$dotfile" == "${CONF_DIR}/.github" || "$dotfile" == "${CONF_DIR}/.DS_Store" ]] && continue
 	ln -fnsv "$dotfile" "$HOME"
 done
+
 
 
 # check brew
