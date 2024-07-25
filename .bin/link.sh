@@ -3,7 +3,7 @@
 CONF_DIR="$(cd .. && pwd)/.dotfiles/.conf"
 for dotfile in "$CONF_DIR"/*?; do
 	[[ "$dotfile" == "${CONF_DIR}/.git" || "$dotfile" == "${CONF_DIR}/.github" || "$dotfile" == "${CONF_DIR}/.DS_Store" ]] && continue
-	ln -sfnv "$dotfile" "$HOME/.config"
+	ln -sfnv "$dotfile" "$HOME/.config/"
 done
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
